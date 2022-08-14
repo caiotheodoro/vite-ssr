@@ -1,0 +1,13 @@
+.cover {
+  background: url('/Background.png') no-repeat center center;
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+  height: 34rem;
+  margin: auto;
+  opacity: 0.5;
+  filter: blur(90px);
+}
