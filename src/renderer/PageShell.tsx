@@ -46,7 +46,7 @@ function Content({ children }: { children: React.ReactNode }) {
     <div
       id="page-content"
       style={{
-        padding: 20,
+        margin: '15px',
         paddingBottom: 50,
         minHeight: '100vh',
         position: `relative`,

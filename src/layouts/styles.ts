@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Navbar = styled.header`
-    width: 100%;
+    max-width: 100%;
     margin: auto;
     padding: 400px auto;
     position: absolute;
@@ -9,7 +9,7 @@ export const Navbar = styled.header`
         display: flex;
         justify-content:space-between;
         align-items:center;
-        padding: 4;
+        padding: 1rem;
     }
   
 `

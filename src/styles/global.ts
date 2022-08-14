@@ -44,4 +44,10 @@ export const GlobalStyle = createGlobalStyle`
 
   
 
+    @media (min-width: 768px) {
+        body {
+            font-size: 0.875rem;
+        }
+    }
+
     `

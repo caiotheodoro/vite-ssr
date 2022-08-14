@@ -10,6 +10,8 @@ export const BannerContainer = styled.div`
     img {
         width: 80%;
         height: auto;
+        border-radius: 10px;
+
     }
   
 `
@@ -18,14 +20,25 @@ const Spashes = styled.img`
 position: absolute;
 width: 300px; 
 height: auto;
+
 `
 
 export const Spashes1 = styled(Spashes)`
-right: -130px;
+right: -120px;
 bottom: -100px;
+
+@media (max-width: 1015px) {
+    display: none;
+}
+
 `
 
 export const Spashes2 = styled(Spashes)`
-left: -242px;
-top: -6px;
+left: -200px;
+top: -5px;
+
+@media (max-width: 1015px) {
+    display: none;
+}
+
 `

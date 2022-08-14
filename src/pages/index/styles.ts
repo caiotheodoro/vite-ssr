@@ -20,7 +20,7 @@ export const HomeContainer = styled.div`
 export const MainPanel = styled.div`
     width: 100%;
     display: flex;
-    margin: 100px auto;
+    margin: 40px 10px;
     justify-content: center;
     flex-direction: column;
     text-align: center;
@@ -51,6 +51,7 @@ export const MainPanelDescription = styled.div`
         justify-content: center;
         gap: 2rem;
         button {
+            font-weight: 500;
             display: flex;
             gap: 0.5rem;
             justify-content: center;
